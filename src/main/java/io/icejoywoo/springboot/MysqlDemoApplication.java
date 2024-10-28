@@ -1,4 +1,4 @@
-package com.example.springboot.mysql_demo;
+package io.icejoywoo.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

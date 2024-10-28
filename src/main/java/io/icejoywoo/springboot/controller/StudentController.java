@@ -1,8 +1,8 @@
-package com.example.springboot.mysql_demo.controller;
+package io.icejoywoo.springboot.controller;
 
-import com.example.springboot.mysql_demo.Response;
-import com.example.springboot.mysql_demo.dto.StudentDTO;
-import com.example.springboot.mysql_demo.service.StudentService;
+import io.icejoywoo.springboot.Response;
+import io.icejoywoo.springboot.dto.StudentDTO;
+import io.icejoywoo.springboot.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

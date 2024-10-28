@@ -1,7 +1,7 @@
-package com.example.springboot.mysql_demo.converter;
+package io.icejoywoo.springboot.converter;
 
-import com.example.springboot.mysql_demo.dao.Student;
-import com.example.springboot.mysql_demo.dto.StudentDTO;
+import io.icejoywoo.springboot.dao.Student;
+import io.icejoywoo.springboot.dto.StudentDTO;
 
 public class StudentConverter {
 

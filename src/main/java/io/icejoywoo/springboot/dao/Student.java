@@ -1,4 +1,4 @@
-package com.example.springboot.mysql_demo.dao;
+package io.icejoywoo.springboot.dao;
 
 import jakarta.persistence.*;
 import lombok.Data;

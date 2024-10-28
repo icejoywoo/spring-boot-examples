@@ -1,4 +1,4 @@
-package com.example.springboot.mysql_demo.dto;
+package io.icejoywoo.springboot.dto;
 
 import lombok.Data;
 

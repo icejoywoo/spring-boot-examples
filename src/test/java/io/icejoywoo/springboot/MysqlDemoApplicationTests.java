@@ -1,4 +1,4 @@
-package com.example.springboot.mysql_demo;
+package io.icejoywoo.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

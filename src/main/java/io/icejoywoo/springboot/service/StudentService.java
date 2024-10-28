@@ -1,6 +1,6 @@
-package com.example.springboot.mysql_demo.service;
+package io.icejoywoo.springboot.service;
 
-import com.example.springboot.mysql_demo.dto.StudentDTO;
+import io.icejoywoo.springboot.dto.StudentDTO;
 
 import java.util.List;
 

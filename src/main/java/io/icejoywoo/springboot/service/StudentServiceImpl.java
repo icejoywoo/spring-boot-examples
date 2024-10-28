@@ -1,9 +1,9 @@
-package com.example.springboot.mysql_demo.service;
+package io.icejoywoo.springboot.service;
 
-import com.example.springboot.mysql_demo.converter.StudentConverter;
-import com.example.springboot.mysql_demo.dao.Student;
-import com.example.springboot.mysql_demo.dao.StudentRepository;
-import com.example.springboot.mysql_demo.dto.StudentDTO;
+import io.icejoywoo.springboot.converter.StudentConverter;
+import io.icejoywoo.springboot.dao.Student;
+import io.icejoywoo.springboot.dao.StudentRepository;
+import io.icejoywoo.springboot.dto.StudentDTO;
 import io.micrometer.common.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
