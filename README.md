@@ -15,3 +15,5 @@ curl -X PUT http://localhost:8080/student/1 \
   -d name=foo -d email=foo@123.com
 
 ```
+
+spring boot unit test: https://blog.csdn.net/TaloyerG/article/details/132487310

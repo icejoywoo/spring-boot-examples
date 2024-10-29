@@ -6,6 +6,7 @@ import java.util.List;
 
 public interface StudentService {
     StudentDTO getStudentById(long id);
+
     List<StudentDTO> getStudents();
 
     long addNewStudent(StudentDTO studentDTO);
