@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-<!--    <parent>-->
-<!--        <groupId>io.icejoywoo.springboot</groupId>-->
-<!--        <artifactId>spring-boot-demo</artifactId>-->
-<!--        <version>${revision}</version>-->
-<!--        <relativePath>../pom.xml</relativePath>-->
-<!--    </parent>-->
+    <!--    <parent>-->
+    <!--        <groupId>io.icejoywoo.springboot</groupId>-->
+    <!--        <artifactId>spring-boot-demo</artifactId>-->
+    <!--        <version>${revision}</version>-->
+    <!--        <relativePath>../pom.xml</relativePath>-->
+    <!--    </parent>-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -15,9 +15,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>io.icejoywoo.springboot</groupId>
-    <artifactId>student-service</artifactId>
+    <artifactId>hello-service</artifactId>
     <version>${revision}</version>
-    <name>student-service</name>
+    <name>hello-service</name>
     <description>Demo project for Spring Boot</description>
     <url/>
     <licenses>
@@ -39,10 +39,6 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
@@ -50,11 +46,6 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <scope>runtime</scope>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
